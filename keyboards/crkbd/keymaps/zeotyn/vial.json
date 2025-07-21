@@ -27,16 +27,16 @@
           [{"r":-15,"rx":12,"ry":9.1,"y":-4.85,"x":-0.5},"7,4"]
       ]
   },
-"customKeycodes": [
-    {
-        "name": "COLEMAK",
-        "title": "Switch to Colemak",
-        "shortName": "KC_COLEMAK"
-    },
-    {
-        "name": "QWERTY",
-        "title": "Switch to QWERTY",
-        "shortName": "KC_QWERTY"
-    }
-]
+    "customKeycodes": [
+        {
+            "name": "COLEMAK",
+            "title": "Switch to Colemak",
+            "shortName": "KC_COLEMAK"
+        },
+        {
+            "name": "QWERTY",
+            "title": "Switch to QWERTY",
+            "shortName": "KC_QWERTY"
+        }
+    ]
 }
