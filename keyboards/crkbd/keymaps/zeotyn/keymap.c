@@ -36,10 +36,10 @@ const uint16_t PROGMEM uml_a_combo[] = {KC_RALT, KC_A, COMBO_END};
 const uint16_t PROGMEM uml_u_combo[] = {KC_RALT, KC_U, COMBO_END};
 const uint16_t PROGMEM uml_o_combo[] = {KC_RALT, KC_O, COMBO_END};
 
-combo_t key_combos[] = {
-  [UML_A] = COMBO(uml_a_combo, DE_ADIA),
-  [UML_U] = COMBO(uml_u_combo, DE_UDIA),
-  [UML_O] = COMBO(uml_o_combo, DE_ODIA),
+__attribute__((weak)) combo_t key_combos[VIAL_COMBO_ENTRIES] = {
+    [UML_A] = COMBO(uml_a_combo, DE_ADIA),
+    [UML_U] = COMBO(uml_u_combo, DE_UDIA),
+    [UML_O] = COMBO(uml_o_combo, DE_ODIA),
 };
 
 // Define layers

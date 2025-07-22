@@ -13,6 +13,8 @@ OLED_DRIVER         = ssd1306
 EXTRAKEY_ENABLE     = yes
 COMBO_ENABLE        = yes
 TRI_LAYER_ENABLE    = yes
+REPEAT_KEY_ENABLE   = yes
+CAPS_WORD_ENABLE	= yes
 
 WPM_ENABLE		    = yes
 
